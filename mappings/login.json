@@ -1,0 +1,32 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "bodyPatterns": [
+          {
+            "equalToJson": "{ \"username\": \"andreas\", \"password\": \"password123\"}"
+          }
+        ],
+        "method": "POST",
+        "url": "/login"
+      },
+      "response": {
+        "status": 200
+      }
+    },
+    {
+      "request": {
+        "bodyPatterns": [
+          {
+            "equalToJson": "{ \"username\": \"test\", \"password\": \"password123\"}"
+          }
+        ],
+        "method": "POST",
+        "url": "/login"
+      },
+      "response": {
+        "status": 401
+      }
+    }
+  ]
+}

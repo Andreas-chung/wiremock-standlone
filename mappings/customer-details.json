@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/customer-details"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {"id": 1234, "name": "andreas chung", "bankDetails": {"accountNumber": 13456789,"sortCode": "20-10-20"},"pets": ["fish", "cat"]}}
+}
